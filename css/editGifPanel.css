@@ -1,0 +1,21 @@
+#videoContainer {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Set the height to auto to maintain aspect ratio */
+  }
+  
+  #video {
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Set the height to auto to maintain aspect ratio */
+  }
+  
+  #cropArea {
+    border: 2px dashed red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+  }
+  
